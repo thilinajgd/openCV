@@ -21,7 +21,7 @@ fps = int(cap.get(cv2.CAP_PROP_FPS))
 print(f"Webcam resolution set to: {width}x{height} @ {fps} FPS")
 
 #Make adjestable window
-cv2.namedWindow('Webcam Feed', cv2.WINDOW_NORMAL)
+cv2.namedWindow('Webcam Feed', cv2.WINDOW_AUTOSIZE)
 
 # Loop to continuously capture frames from the webcam
 while True:
